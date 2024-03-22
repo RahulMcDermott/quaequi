@@ -1,0 +1,17 @@
+{
+  "registry": "https://registry.npmjs.org/",
+  "version": "independent",
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "message": "build: publish",
+      "private": false,
+      "createRelease": "github",
+      "ignoreChanges": ["**/tests/**", "**/*.md"]
+    },
+    "run": {
+      "stream": true
+    }
+  },
+  "npmClient": "yarn"
+}
